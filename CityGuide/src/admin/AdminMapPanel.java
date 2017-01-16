@@ -14,7 +14,7 @@ import javax.swing.border.LineBorder;
 import java.awt.Font;
 import javax.swing.JTextArea;
 
-public class AdminMap extends JFrame {
+public class AdminMapPanel extends JFrame {
 
 	private JPanel contentPane;
 
@@ -25,7 +25,7 @@ public class AdminMap extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					AdminMap frame = new AdminMap();
+					AdminMapPanel frame = new AdminMapPanel();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -37,7 +37,7 @@ public class AdminMap extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public AdminMap() {
+	public AdminMapPanel() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100,100, 2147483647, 2147483647);
 		contentPane = new JPanel();

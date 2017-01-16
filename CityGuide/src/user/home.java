@@ -22,7 +22,6 @@ public class home extends JFrame {
 	private boolean panelBool = true; // true = Search , false =  Map
 	JButton buttonBack = new JButton("Do Something");
 
-	testline
 //	private JPanel searchPane;
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
