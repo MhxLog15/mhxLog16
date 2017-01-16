@@ -13,10 +13,8 @@ import java.awt.Font;
 public class admin extends JFrame {
 
 	private JPanel contentPane;
-
-	/**
-	 * Launch the application.
-	 */
+	private AdminMapPanel am;
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -30,9 +28,6 @@ public class admin extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
 	public admin() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 2147483647, 2147483647);
