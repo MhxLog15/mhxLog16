@@ -30,25 +30,25 @@ public class MapPanel {
 		panel.setBounds(10, 11, 1350, 541);
 		contentPane.add(panel);
 		
-		JButton btnNewButton = new JButton("<<  \u03A0\u03AF\u03C3\u03C9");
-		btnNewButton.addActionListener( new ActionListener()
+		JButton btnBack = new JButton("<<  \u03A0\u03AF\u03C3\u03C9");
+		btnBack.addActionListener( new ActionListener()
 		{
 		    public void actionPerformed(ActionEvent e)
 		    {
-		    back.doClick();    
+		    btnBack.doClick();    
 		    }
 		});
-		btnNewButton.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 28));
-		btnNewButton.setBounds(10, 563, 198, 176);
-		contentPane.add(btnNewButton);
+		btnBack.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		btnBack.setFont(new Font("Tahoma", Font.PLAIN, 28));
+		btnBack.setBounds(10, 563, 198, 176);
+		contentPane.add(btnBack);
 		
-		JTextArea textArea = new JTextArea();
-		textArea.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		textArea.setForeground(new Color(0, 0, 0));
-		textArea.setSize(new Dimension(4, 4));
-		textArea.setBounds(218, 563, 1142, 176);
-		contentPane.add(textArea);
+		JTextArea perigrafi = new JTextArea();
+		perigrafi.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		perigrafi.setForeground(new Color(0, 0, 0));
+		perigrafi.setSize(new Dimension(4, 4));
+		perigrafi.setBounds(218, 563, 1142, 176);
+		contentPane.add(perigrafi);
 
 		return contentPane;
 		}

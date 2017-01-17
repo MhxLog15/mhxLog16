@@ -45,47 +45,47 @@ public class AdminMapPanel extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		lblNewLabel.setBounds(new Rectangle(4, 4, 4, 4));
-		lblNewLabel.setSize(new Dimension(4, 4));
-		lblNewLabel.setBackground(Color.BLACK);
-		lblNewLabel.setBounds(10, 11, 1350, 541);
-		contentPane.add(lblNewLabel);
+		JLabel lbl_map = new JLabel("");
+		lbl_map.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		lbl_map.setBounds(new Rectangle(4, 4, 4, 4));
+		lbl_map.setSize(new Dimension(4, 4));
+		lbl_map.setBackground(Color.BLACK);
+		lbl_map.setBounds(10, 11, 1350, 541);
+		contentPane.add(lbl_map);
 		
-		JButton btnNewButton = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
-		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 28));
-		btnNewButton.setBounds(10, 560, 227, 179);
-		contentPane.add(btnNewButton);
+		JButton btnSave = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
+		btnSave.setFont(new Font("Tahoma", Font.PLAIN, 28));
+		btnSave.setBounds(10, 560, 227, 179);
+		contentPane.add(btnSave);
 		
-		JLabel lblNewLabel_1 = new JLabel("\u0394\u03B9\u03B5\u03CD\u03C5\u03BD\u03C3\u03B7 :");
-		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 22));
-		lblNewLabel_1.setBounds(247, 565, 236, 27);
-		contentPane.add(lblNewLabel_1);
+		JLabel lblAddress = new JLabel("\u0394\u03B9\u03B5\u03CD\u03C5\u03BD\u03C3\u03B7 :");
+		lblAddress.setFont(new Font("Tahoma", Font.PLAIN, 22));
+		lblAddress.setBounds(247, 565, 236, 27);
+		contentPane.add(lblAddress);
 		
-		JTextArea textArea = new JTextArea();
-		textArea.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		textArea.setBounds(247, 597, 236, 47);
-		contentPane.add(textArea);
+		JTextArea textArea_Address = new JTextArea();
+		textArea_Address.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		textArea_Address.setBounds(247, 597, 236, 47);
+		contentPane.add(textArea_Address);
 		
-		JLabel label = new JLabel("\u0391\u03C1\u03B9\u03B8\u03BC\u03CC\u03C2 :");
-		label.setFont(new Font("Tahoma", Font.PLAIN, 22));
-		label.setBounds(247, 655, 236, 27);
-		contentPane.add(label);
+		JLabel lblNumber = new JLabel("\u0391\u03C1\u03B9\u03B8\u03BC\u03CC\u03C2 :");
+		lblNumber.setFont(new Font("Tahoma", Font.PLAIN, 22));
+		lblNumber.setBounds(247, 655, 236, 27);
+		contentPane.add(lblNumber);
 		
-		JTextArea textArea_1 = new JTextArea();
-		textArea_1.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		textArea_1.setBounds(247, 692, 236, 47);
-		contentPane.add(textArea_1);
+		JTextArea textArea_Number = new JTextArea();
+		textArea_Number.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		textArea_Number.setBounds(247, 692, 236, 47);
+		contentPane.add(textArea_Number);
 		
-		JLabel label_1 = new JLabel("\u03A0\u03B5\u03C1\u03B9\u03B3\u03C1\u03B1\u03C6\u03AE \u03C3\u03B7\u03BC\u03B5\u03AF\u03BF\u03C5 :");
-		label_1.setFont(new Font("Tahoma", Font.PLAIN, 22));
-		label_1.setBounds(511, 565, 236, 27);
-		contentPane.add(label_1);
+		JLabel lblDescription = new JLabel("\u03A0\u03B5\u03C1\u03B9\u03B3\u03C1\u03B1\u03C6\u03AE \u03C3\u03B7\u03BC\u03B5\u03AF\u03BF\u03C5 :");
+		lblDescription.setFont(new Font("Tahoma", Font.PLAIN, 22));
+		lblDescription.setBounds(511, 565, 236, 27);
+		contentPane.add(lblDescription);
 		
-		JTextArea textArea_2 = new JTextArea();
-		textArea_2.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		textArea_2.setBounds(511, 596, 849, 143);
-		contentPane.add(textArea_2);
+		JTextArea textArea_Description = new JTextArea();
+		textArea_Description.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		textArea_Description.setBounds(511, 596, 849, 143);
+		contentPane.add(textArea_Description);
 	}
 }
