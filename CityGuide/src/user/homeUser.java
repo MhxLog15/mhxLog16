@@ -17,7 +17,7 @@ import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class home extends JFrame {
+public class homeUser extends JFrame {
 
 	private boolean panelBool = true; // true = Search , false =  Map
 	JButton buttonBack = new JButton("Do Something");
@@ -27,7 +27,7 @@ public class home extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					home frame = new home();
+					homeUser frame = new homeUser();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -35,7 +35,7 @@ public class home extends JFrame {
 			}
 		});
 	}
-	public home() {
+	public homeUser() {
 		SearchPanel sp = new SearchPanel();
 		MapPanel mp = new MapPanel();
 
