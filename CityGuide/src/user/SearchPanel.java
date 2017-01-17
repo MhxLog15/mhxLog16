@@ -24,7 +24,6 @@ public class SearchPanel {
 	private JTextField textField_mesa;
 	private JTextField textField_diamoni;
 	private JTextField textField_diaskedasi;
-//  private JTextField textField_3;
 	private JTextField textField_politismos;
 	private JTextField textField_athlitismos;
 
@@ -136,16 +135,11 @@ public class SearchPanel {
 		textField_diaskedasi.setBounds(582, 215, 219, 65);
 		contentPane.add(textField_diaskedasi);
 
-		JLabel lblbackground = new JLabel("New label");
-		lblbackground.setIcon(new ImageIcon("C:\\Users\\mili\\Desktop\\dusk-city-wallpaper-wallpaper-3.jpg"));
-		lblbackground.setBounds(0, 0, 1370, 750);
-		contentPane.add(lblbackground);
-
-	//	textField_3 = new JTextField();
-		//textField_3.setColumns(10);
-		//textField_3.setBounds(938, 215, 256, 65);
-		//contentPane.add(textField_3);
-
+		JLabel lblBackground = new JLabel("just backround");
+		lblBackground.setIcon(new ImageIcon("C:\\Users\\mili\\Desktop\\dusk-city-wallpaper-wallpaper-3.jpg"));
+		lblBackground.setBounds(0, 0, 1370, 750);
+		contentPane.add(lblBackground);
+		
 	//	comboEnable(comboBox_4);
 	//	comboEnable(comboBox_3);
 	//	comboEnable(comboBox_2);
