@@ -13,6 +13,12 @@ import java.awt.Rectangle;
 import javax.swing.border.LineBorder;
 import java.awt.Font;
 import javax.swing.JTextArea;
+import javax.swing.JList;
+import javax.swing.AbstractListModel;
+import javax.swing.DefaultListModel;
+import javax.swing.ListSelectionModel;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class AdminMapPanel extends JFrame {
 
@@ -44,6 +50,12 @@ public class AdminMapPanel extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		
+		String[] values = new String[] {"Metro", "Tram", "Leoforeia", "Aerodromia", "Limania", "Ksenodoxeia", "Kentra diaskedasis", "Kafeteries", "Estiatoria", "Aksiotheata", "Theatra", "Mouseia", "Cinema", "Stadia podosfairou", "Kleista gipeda", "Proponitika kentra"};
+
+		DefaultListModel<String> model = new DefaultListModel<>();
+		for(int i=0;i<values.length;i++)
+		model.addElement(values[i]);
 		
 		JLabel lbl_map = new JLabel("");
 		lbl_map.setBorder(new LineBorder(new Color(0, 0, 0), 2));
@@ -85,7 +97,18 @@ public class AdminMapPanel extends JFrame {
 		
 		JTextArea textArea_Description = new JTextArea();
 		textArea_Description.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		textArea_Description.setBounds(511, 596, 849, 143);
+		textArea_Description.setBounds(511, 596, 604, 143);
 		contentPane.add(textArea_Description);
+		
+		JLabel CategoryLabel = new JLabel("\u039A\u03B1\u03C4\u03B7\u03B3\u03BF\u03C1\u03AF\u03B1 :");
+		CategoryLabel.setFont(new Font("Tahoma", Font.PLAIN, 22));
+		CategoryLabel.setBounds(1134, 667, 236, 27);
+		contentPane.add(CategoryLabel);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setFont(new Font("Tahoma", Font.PLAIN, 18));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Metro", "Tram", "Leoforeia", "Aerodromia", "Limania", "Ksenodoxeia", "Kentra diaskedasis", "Kafeteries", "Estiatoria", "Aksiotheata", "Theatra", "Mouseia", "Cinema", "Stadia podosfairou", "Kleista gipeda", "Proponitika kentra"}));
+		comboBox.setBounds(1134, 703, 226, 36);
+		contentPane.add(comboBox);
 	}
 }
