@@ -1,4 +1,5 @@
 package user;
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -19,10 +20,9 @@ import java.awt.event.ActionEvent;
 
 public class homeUser extends JFrame {
 
-	private boolean panelBool = true; // true = Search , false =  Map
-	JButton buttonBack = new JButton("Do Something");
+	private boolean panelBool = true; // true = Search , false = Map
+	JButton btnback = new JButton("Do Something");
 
-//	private JPanel searchPane;
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -35,36 +35,25 @@ public class homeUser extends JFrame {
 			}
 		});
 	}
+
 	public homeUser() {
 		SearchPanel sp = new SearchPanel();
 		MapPanel mp = new MapPanel();
 
-		buttonBack.addActionListener( new ActionListener()
-		{
-		    public void actionPerformed(ActionEvent e)
-		   {
-		    	if(!panelBool)
-		    		setContentPane(sp.panel(buttonBack));
-		    		else
-		    		setContentPane(mp.panel(buttonBack));
-		    	panelBool = !panelBool;
-		    	revalidate(); 
-		    }
+		btnback.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (!panelBool)
+					setContentPane(sp.panel(btnback));
+				else
+					setContentPane(mp.panel(btnback));
+				panelBool = !panelBool;
+				revalidate();
+			}
 		});
-		
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 2147483647, 2147483647);
-		setContentPane(sp.panel(buttonBack));
-			
-	
-	
 
-	
-	
-	
-	
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 1600, 900);
+		setContentPane(sp.panel(btnback));
+
 	}
 }
-
-
-

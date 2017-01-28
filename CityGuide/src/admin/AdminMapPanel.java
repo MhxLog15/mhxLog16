@@ -10,6 +10,9 @@ import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.border.LineBorder;
 import java.awt.Font;
 import javax.swing.JTextArea;
@@ -23,49 +26,33 @@ import javax.swing.DefaultComboBoxModel;
 public class AdminMapPanel extends JFrame {
 
 	private JPanel contentPane;
+public	JPanel panel ;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					AdminMapPanel frame = new AdminMapPanel();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
+	
+	public JPanel panel(JButton back) {
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(0, 0, 0, 0));
+		contentPane.setLayout(null);
+
+		//String[] values = new String[] {"Metro", "Tram", "Leoforeia", "Aerodromia", "Limania", "Ksenodoxeia", "Kentra diaskedasis", "Kafeteries", "Estiatoria", "Aksiotheata", "Theatra", "Mouseia", "Cinema", "Stadia podosfairou", "Kleista gipeda", "Proponitika kentra"};
+
+		newpanel();
+		
+/*	
+ 		JLabel lblMap = new JLabel("");
+		lblMap.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		lblMap.setBounds(new Rectangle(4, 4, 4, 4));
+		lblMap.setSize(new Dimension(4, 4));
+		lblMap.setBackground(Color.BLACK);
+		lblMap.setBounds(10, 11, 1350, 541);
+		contentPane.add(lblMap);
+	*/	
+		JButton btnSave = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
+		btnSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				back.doClick();
 			}
 		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
-	public AdminMapPanel() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100,100, 2147483647, 2147483647);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		setContentPane(contentPane);
-		contentPane.setLayout(null);
-		
-		String[] values = new String[] {"Metro", "Tram", "Leoforeia", "Aerodromia", "Limania", "Ksenodoxeia", "Kentra diaskedasis", "Kafeteries", "Estiatoria", "Aksiotheata", "Theatra", "Mouseia", "Cinema", "Stadia podosfairou", "Kleista gipeda", "Proponitika kentra"};
-
-		DefaultListModel<String> model = new DefaultListModel<>();
-		for(int i=0;i<values.length;i++)
-		model.addElement(values[i]);
-		
-		JLabel lbl_map = new JLabel("");
-		lbl_map.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		lbl_map.setBounds(new Rectangle(4, 4, 4, 4));
-		lbl_map.setSize(new Dimension(4, 4));
-		lbl_map.setBackground(Color.BLACK);
-		lbl_map.setBounds(10, 11, 1350, 541);
-		contentPane.add(lbl_map);
-		
-		JButton btnSave = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
 		btnSave.setFont(new Font("Tahoma", Font.PLAIN, 28));
 		btnSave.setBounds(10, 560, 227, 179);
 		contentPane.add(btnSave);
@@ -100,15 +87,25 @@ public class AdminMapPanel extends JFrame {
 		textArea_Description.setBounds(511, 596, 604, 143);
 		contentPane.add(textArea_Description);
 		
-		JLabel CategoryLabel = new JLabel("\u039A\u03B1\u03C4\u03B7\u03B3\u03BF\u03C1\u03AF\u03B1 :");
-		CategoryLabel.setFont(new Font("Tahoma", Font.PLAIN, 22));
-		CategoryLabel.setBounds(1134, 667, 236, 27);
-		contentPane.add(CategoryLabel);
+		JLabel lblCategory = new JLabel("\u039A\u03B1\u03C4\u03B7\u03B3\u03BF\u03C1\u03AF\u03B1 :");
+		lblCategory.setFont(new Font("Tahoma", Font.PLAIN, 22));
+		lblCategory.setBounds(1134, 667, 236, 27);
+		contentPane.add(lblCategory);
 		
 		JComboBox comboBox = new JComboBox();
 		comboBox.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Metro", "Tram", "Leoforeia", "Aerodromia", "Limania", "Ksenodoxeia", "Kentra diaskedasis", "Kafeteries", "Estiatoria", "Aksiotheata", "Theatra", "Mouseia", "Cinema", "Stadia podosfairou", "Kleista gipeda", "Proponitika kentra"}));
 		comboBox.setBounds(1134, 703, 226, 36);
 		contentPane.add(comboBox);
+		
+		return contentPane;
+	}
+	
+	public void newpanel()
+	{
+		panel = new JPanel();
+		panel.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		panel.setBounds(10, 11, 1350, 541);
+		contentPane.add(panel);
 	}
 }

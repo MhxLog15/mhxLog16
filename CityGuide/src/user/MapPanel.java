@@ -22,7 +22,7 @@ public class MapPanel {
 
 	public JPanel panel(JButton back) {
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBorder(new EmptyBorder(0, 0, 0, 0));
 		contentPane.setLayout(null);
 		
 		JPanel panel = new JPanel();
@@ -35,7 +35,7 @@ public class MapPanel {
 		{
 		    public void actionPerformed(ActionEvent e)
 		    {
-		    btnBack.doClick();    
+		    	back.doClick();    
 		    }
 		});
 		btnBack.setBorder(new LineBorder(new Color(0, 0, 0), 2));
@@ -43,12 +43,12 @@ public class MapPanel {
 		btnBack.setBounds(10, 563, 198, 176);
 		contentPane.add(btnBack);
 		
-		JTextArea perigrafi = new JTextArea();
-		perigrafi.setBorder(new LineBorder(new Color(0, 0, 0), 2));
-		perigrafi.setForeground(new Color(0, 0, 0));
-		perigrafi.setSize(new Dimension(4, 4));
-		perigrafi.setBounds(218, 563, 1142, 176);
-		contentPane.add(perigrafi);
+		JTextArea textAreaDescription = new JTextArea();
+		textAreaDescription.setBorder(new LineBorder(new Color(0, 0, 0), 2));
+		textAreaDescription.setForeground(new Color(0, 0, 0));
+		textAreaDescription.setSize(new Dimension(4, 4));
+		textAreaDescription.setBounds(218, 563, 1142, 176);
+		contentPane.add(textAreaDescription);
 
 		return contentPane;
 		}

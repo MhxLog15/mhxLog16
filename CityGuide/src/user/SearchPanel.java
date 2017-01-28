@@ -35,7 +35,6 @@ public class SearchPanel {
 	public JPanel panel(JButton back) {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(0, 0, 0, 0));
-
 		contentPane.setLayout(null);
 
 		JButton search = new JButton("\u0391\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7");
