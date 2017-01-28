@@ -18,7 +18,6 @@ import java.awt.event.ActionListener;
 public class AdminPanel extends JFrame {
 
 	private JPanel contentPane;
-	private AdminMapPanel am;
 
 	public String action = "";
 
@@ -63,9 +62,8 @@ public class AdminPanel extends JFrame {
 		btnAdd.setBounds(501, 200, 316, 124);
 		contentPane.add(btnAdd);
 
-		JLabel lblBackround = new JLabel("just backround");
-	//	lblBackround.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/Images/point.png")).getImage()));
-	//	JLabel lblBackround = new JLabel(new ImageIcon(getClass().getClassLoader().getResource("Images/point.png")));
+		JLabel lblBackround = new JLabel(
+				new ImageIcon(getClass().getClassLoader().getResource("Images/dusk-city-wallpaper-wallpaper-3.jpg")));
 
 		lblBackround.setBounds(0, 0, 1370, 750);
 		contentPane.add(lblBackround);

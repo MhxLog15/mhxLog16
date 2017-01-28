@@ -52,7 +52,7 @@ public class homeUser extends JFrame {
 		});
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1600, 900);
+		setBounds(100, 100, 1370, 750);
 		setContentPane(sp.panel(btnback));
 
 	}

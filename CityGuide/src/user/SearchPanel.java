@@ -134,10 +134,11 @@ public class SearchPanel {
 		textField_diaskedasi.setBounds(582, 215, 219, 65);
 		contentPane.add(textField_diaskedasi);
 
-		JLabel lblBackground = new JLabel("just backround");
-		lblBackground.setIcon(new ImageIcon("C:\\Users\\mili\\Desktop\\dusk-city-wallpaper-wallpaper-3.jpg"));
-		lblBackground.setBounds(0, 0, 1370, 750);
-		contentPane.add(lblBackground);
+		JLabel lblBackround = new JLabel(new ImageIcon(getClass().getClassLoader().getResource("Images/dusk-city-wallpaper-wallpaper-3.jpg")));
+		//JLabel lblBackground = new JLabel("just backround");
+	//	lblBackground.setIcon(new ImageIcon("C:\\Users\\mili\\Desktop\\dusk-city-wallpaper-wallpaper-3.jpg"));
+		lblBackround.setBounds(0, 0, 1370, 750);
+		contentPane.add(lblBackround);
 		
 	//	comboEnable(comboBox_4);
 	//	comboEnable(comboBox_3);
