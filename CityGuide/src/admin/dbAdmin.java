@@ -27,7 +27,7 @@ public class dbAdmin {
 	public void GetSpots(List<Spot> spotlist) {
 		Spot spot;
 		try {
-			result = statement.executeQuery("select * from cityguide.data");
+			result = statement.executeQuery("SELECT * FROM cityguide.data");
 			while (result.next()) {
 				spot = new Spot();
 				spot.SetId(Integer.valueOf(result.getString(1)));

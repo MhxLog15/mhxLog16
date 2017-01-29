@@ -1,78 +1,94 @@
 package admin;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.border.LineBorder;
-
 import java.awt.Font;
-import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.MouseInfo;
-import java.awt.Point;
-
 import javax.swing.JTextArea;
-import javax.swing.JList;
 import javax.swing.JOptionPane;
-import javax.swing.AbstractListModel;
-import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
-import javax.swing.ListSelectionModel;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 
-public class AdminMapPanel extends JFrame {
+public class AdminMapPanel {
 
 	private JPanel contentPane;
 	public JPanel panel;
-	public JTextArea textArea_Address, textArea_Number, textArea_Description;
-	public int x = -10, y = -10;
-	public JComboBox comboBox;
+	private JTextArea textArea_Address, textArea_Number, textArea_Description;
+	private int x = -1, y = -1, selectedID = -1;
+	private JComboBox comboBox;
 	private String mode = "";
+	public Spot spot;
 	////////////////// public SELECTED button-label
 
 	public JPanel panel(JButton back, String mode) {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(0, 0, 0, 0));
 		contentPane.setLayout(null);
-		
+
 		this.mode = mode;
+		spot = new Spot();
 
-		// String[] values = new String[] {"Metro", "Tram", "Leoforeia",
-		// "Aerodromia", "Limania", "Ksenodoxeia", "Kentra diaskedasis",
-		// "Kafeteries", "Estiatoria", "Aksiotheata", "Theatra", "Mouseia",
-		// "Cinema", "Stadia podosfairou", "Kleista gipeda", "Proponitika
-		// kentra"};
-
-	//	newpanel();
-
-		/*
-		 * JLabel lblMap = new JLabel(""); lblMap.setBorder(new LineBorder(new
-		 * Color(0, 0, 0), 2)); lblMap.setBounds(new Rectangle(4, 4, 4, 4));
-		 * lblMap.setSize(new Dimension(4, 4));
-		 * lblMap.setBackground(Color.BLACK); lblMap.setBounds(10, 11, 1350,
-		 * 541); contentPane.add(lblMap);
-		 */
-		JButton btnSave = new JButton("\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7");
+		JButton btnSave = new JButton();
+		if (mode.equals("add"))
+			btnSave.setText("\u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7");
+		else if (mode.equals("edi"))
+			btnSave.setText("\u0395\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03b1\u03c3\u03af\u03b1");
+		else
+			btnSave.setText("\u0394\u03b9\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae");
 		btnSave.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				if (mode.equals("add")) {
+					if (selectedID == -1) {
+						JOptionPane.showMessageDialog(null,
+								"\u0395\u03c0\u03ad\u03bb\u03b5\u03be\u03b5 \u03c0\u03c1\u03ce\u03c4\u03b1 \u03ad\u03bd\u03b1 \u03ba\u03b5\u03bd\u03cc \u03c3\u03b7\u03bc\u03b5\u03af\u03bf \u03c3\u03c4\u03bf\u03bd \u03c7\u03ac\u03c1\u03c4\u03b7\u002e",
+								"Info", JOptionPane.INFORMATION_MESSAGE);
+						return;
+					} else if (selectedID == 0) {
+						spot.SetAddress(textArea_Address.getText());
+						spot.SetNumber(textArea_Number.getText());
+						spot.SetDecription(textArea_Description.getText());
+						spot.SetX(x);
+						spot.SetY(y);
+						spot.SetCategory(comboBox.getSelectedItem().toString());
+					} else {
+						JOptionPane.showMessageDialog(null,
+								"\u03a5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03ae\u03b4\u03b7 \u03ad\u03bd\u03b1 \u03c3\u03b7\u03bc\u03b5\u03af\u03bf \u03c3\u03b5 \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03bd \u03c4\u03bf\u03c0\u03bf\u03b8\u03b5\u03c3\u03af\u03b1\u002e",
+								"Info", JOptionPane.INFORMATION_MESSAGE);
+						return;
+					}
+				} else if (mode.equals("edi")) {
+					if (selectedID == -1) {
+						JOptionPane.showMessageDialog(null,
+								"\u0394\u03b5\u03bd \u03ad\u03c7\u03b5\u03c4\u03b5 \u03b5\u03c0\u03b9\u03bb\u03ad\u03be\u03b5\u03b9 \u03c3\u03b7\u03bc\u03b5\u03af\u03bf \u03b3\u03b9\u03b1 \u0395\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03b1\u03c3\u03af\u03b1\u002e",
+								"Info", JOptionPane.INFORMATION_MESSAGE);
+						return;
+					}
+					spot.SetId(selectedID);
+					spot.SetAddress(textArea_Address.getText());
+					spot.SetNumber(textArea_Number.getText());
+					spot.SetDecription(textArea_Description.getText());
+					spot.SetX(x);
+					spot.SetY(y);
+					spot.SetCategory(comboBox.getSelectedItem().toString());
+				} else {
+					if (selectedID == -1) {
+						JOptionPane.showMessageDialog(null,
+								"\u0394\u03b5\u03bd \u03ad\u03c7\u03b5\u03c4\u03b5 \u03b5\u03c0\u03b9\u03bb\u03ad\u03be\u03b5\u03b9 \u03c3\u03b7\u03bc\u03b5\u03af\u03bf \u03b3\u03b9\u03b1 \u0394\u03b9\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae\u002e",
+								"Info", JOptionPane.INFORMATION_MESSAGE);
+						return;
+					}
+					spot.SetId(selectedID);
+				}
 				back.doClick();
 			}
 		});
@@ -128,23 +144,8 @@ public class AdminMapPanel extends JFrame {
 	}
 
 	public void newpanel(List<Spot> spotlist) {
-		for(Spot spot : spotlist)
-		{
-			//JLabel lblPin = new JLabel(new ImageIcon(getClass().getClassLoader().getResource("Images/ts-map-pin.png")));
-		JLabel lblPin = new JLabel();
-		lblPin.setIcon(new ImageIcon(new ImageIcon(getClass().getClassLoader().getResource("Images/ts-map-pin.png")).getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT)));
-			lblPin.setBounds(spot.GetX()-15, spot.GetY()-15, 30, 30);
-			lblPin.addMouseListener(new MouseAdapter()  
-			{  
-			    public void mouseClicked(MouseEvent e)  
-			    {  
-					JOptionPane.showMessageDialog(null, "WORKS", "X=" + e.getX() + "; Y=" + e.getY(),
-							JOptionPane.INFORMATION_MESSAGE);
-			    }  
-			}); 
-			contentPane.add(lblPin);
-		}
-		
+		for (Spot spot : spotlist)
+			newSpot(spot);
 		panel = new JPanel();
 		panel.setBorder(new LineBorder(new Color(0, 0, 0), 2));
 		panel.setBounds(10, 11, 1350, 541);
@@ -152,13 +153,34 @@ public class AdminMapPanel extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				if (true) {
-					JOptionPane.showMessageDialog(null, "erererrr", "X=" + e.getX() + "; Y=" + e.getY(),
-							JOptionPane.INFORMATION_MESSAGE);
-					x = e.getX();
-					y = e.getY();
+					if (mode.equals("add")) {
+						x = e.getX();
+						y = e.getY();
+						selectedID = 0;
+					} else
+						selectedID = -1;
 				}
 			}
 		});
 		contentPane.add(panel);
+	}
+
+	public void newSpot(Spot spot) {
+		JLabel lblPin = new JLabel();
+		// EIKONES
+		lblPin.setIcon(new ImageIcon(new ImageIcon(getClass().getClassLoader().getResource("Images/ts-map-pin.png"))
+				.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT)));
+		// EIKONES
+		lblPin.setBounds(spot.GetX() - 15, spot.GetY() - 15, 30, 30);
+		lblPin.addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent e) {
+				textArea_Address.setText(spot.GetAddress());
+				textArea_Number.setText(spot.GetNumber());
+				textArea_Description.setText(spot.GetDecription());
+				comboBox.setSelectedItem(spot.GetCategory());
+				selectedID = spot.GetId();
+			}
+		});
+		contentPane.add(lblPin);
 	}
 }

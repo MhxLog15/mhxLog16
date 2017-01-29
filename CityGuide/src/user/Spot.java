@@ -1,4 +1,4 @@
-package admin;
+package user;
 
 public class Spot {
 
