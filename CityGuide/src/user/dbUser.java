@@ -24,10 +24,16 @@ public class dbUser {
 		}
 	}
 
-	public void GetSpots(List<Spot> spotlist) {
+	public void GetSpots(List<Spot> spotlist, List<String> s) {
 		Spot spot;
 		try {
-			result = statement.executeQuery("SELECT * FROM cityguide.data");
+			String req = "SELECT * FROM cityguide.data";
+			if (s.size() > 0)
+				req += " WHERE category LIKE '" + s.get(0) + "'";
+			if (s.size() > 1)
+				for (int i = 1; i < s.size(); i++)
+					req += " OR category LIKE '" + s.get(i) + "'";
+			result = statement.executeQuery(req);
 			while (result.next()) {
 				spot = new Spot();
 				spot.SetId(Integer.valueOf(result.getString(1)));

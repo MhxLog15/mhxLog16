@@ -61,7 +61,7 @@ public class homeAdmin extends JFrame {
 			}
 		});
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(0, 0, 1280, 720);
+		setBounds(0, 0, 1280 + 16, 720 + 39);
 		setContentPane(ap.panel(btnback));
 	}
 }

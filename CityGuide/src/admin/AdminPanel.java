@@ -60,7 +60,7 @@ public class AdminPanel {
 		JLabel lblBackround = new JLabel();
 		lblBackround.setBounds(0, 0, 1280, 720);
 		lblBackround.setIcon(new ImageIcon(new ImageIcon(getClass().getClassLoader().getResource("Images/dusk-city-wallpaper-wallpaper-3.jpg"))
-				.getImage().getScaledInstance(1280, 720, Image.SCALE_DEFAULT)));
+						.getImage().getScaledInstance(1280, 720, Image.SCALE_DEFAULT)));
 		contentPane.add(lblBackround);
 
 		return contentPane;
