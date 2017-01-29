@@ -6,6 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import java.awt.Font;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -56,10 +57,10 @@ public class AdminPanel {
 		btnAdd.setBounds(501, 200, 316, 124);
 		contentPane.add(btnAdd);
 
-		JLabel lblBackround = new JLabel(
-				new ImageIcon(getClass().getClassLoader().getResource("Images/dusk-city-wallpaper-wallpaper-3.jpg")));
-
-		lblBackround.setBounds(0, 0, 1370, 750);
+		JLabel lblBackround = new JLabel();
+		lblBackround.setBounds(0, 0, 1280, 720);
+		lblBackround.setIcon(new ImageIcon(new ImageIcon(getClass().getClassLoader().getResource("Images/dusk-city-wallpaper-wallpaper-3.jpg"))
+				.getImage().getScaledInstance(1280, 720, Image.SCALE_DEFAULT)));
 		contentPane.add(lblBackround);
 
 		return contentPane;
