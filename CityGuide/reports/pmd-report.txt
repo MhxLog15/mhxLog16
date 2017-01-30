@@ -1,0 +1,730 @@
+JUnitTEST/admin/SpotTest.java:7:	Each class should declare at least one constructor
+JUnitTEST/admin/SpotTest.java:7:	headerCommentRequirement Required
+JUnitTEST/admin/SpotTest.java:10:	publicMethodCommentRequirement Required
+JUnitTEST/admin/SpotTest.java:11:	Avoid unused local variables such as 'sp'.
+JUnitTEST/admin/SpotTest.java:11:	Avoid variables with short names like sp
+JUnitTEST/admin/SpotTest.java:11:	Found 'DU'-anomaly for variable 'sp' (lines '11'-'12').
+JUnitTEST/admin/SpotTest.java:11:	Local variable 'sp' could be declared final
+JUnitTEST/user/SpotTest.java:7:	Each class should declare at least one constructor
+JUnitTEST/user/SpotTest.java:7:	headerCommentRequirement Required
+JUnitTEST/user/SpotTest.java:10:	publicMethodCommentRequirement Required
+JUnitTEST/user/SpotTest.java:11:	Local variable 'spot' could be declared final
+src/admin/AdminMapPanel.java:22:	Each class should declare at least one constructor
+src/admin/AdminMapPanel.java:22:	The class 'AdminMapPanel' has a Cyclomatic Complexity of 11 (Highest = 18).
+src/admin/AdminMapPanel.java:22:	The class 'AdminMapPanel' has a Modified Cyclomatic Complexity of 11 (Highest = 18).
+src/admin/AdminMapPanel.java:22:	The class 'AdminMapPanel' has a Standard Cyclomatic Complexity of 11 (Highest = 18).
+src/admin/AdminMapPanel.java:22:	headerCommentRequirement Required
+src/admin/AdminMapPanel.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:24:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:25:	Field panel has the same name as a method
+src/admin/AdminMapPanel.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:25:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:26:	Avoid excessively long variable names like textArea_Description
+src/admin/AdminMapPanel.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textArea_Address' is not final.
+src/admin/AdminMapPanel.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textArea_Description' is not final.
+src/admin/AdminMapPanel.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textArea_Number' is not final.
+src/admin/AdminMapPanel.java:26:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:27:	Avoid variables with short names like x
+src/admin/AdminMapPanel.java:27:	Avoid variables with short names like y
+src/admin/AdminMapPanel.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:27:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:28:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:29:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminMapPanel.java:30:	fieldCommentRequirement Required
+src/admin/AdminMapPanel.java:33:	Avoid really long methods.
+src/admin/AdminMapPanel.java:33:	Parameter 'back' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:33:	Parameter 'mode' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:33:	The method 'panel' has a Cyclomatic Complexity of 10.
+src/admin/AdminMapPanel.java:33:	The method 'panel' has a Modified Cyclomatic Complexity of 10.
+src/admin/AdminMapPanel.java:33:	The method 'panel' has a Standard Cyclomatic Complexity of 10.
+src/admin/AdminMapPanel.java:33:	publicMethodCommentRequirement Required
+src/admin/AdminMapPanel.java:40:	Local variable 'btnSave' could be declared final
+src/admin/AdminMapPanel.java:42:	Position literals first in String comparisons
+src/admin/AdminMapPanel.java:43:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:44:	Position literals first in String comparisons
+src/admin/AdminMapPanel.java:45:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:47:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:49:	Avoid variables with short names like e
+src/admin/AdminMapPanel.java:49:	Parameter 'e' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:49:	publicMethodCommentRequirement Required
+src/admin/AdminMapPanel.java:50:	Position literals first in String comparisons
+src/admin/AdminMapPanel.java:54:	The String literal "Info" appears 4 times in this file; the first occurrence is on line 54
+src/admin/AdminMapPanel.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:69:	Position literals first in String comparisons
+src/admin/AdminMapPanel.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:96:	The String literal "Tahoma" appears 9 times in this file; the first occurrence is on line 96
+src/admin/AdminMapPanel.java:99:	Local variable 'lblAddress' could be declared final
+src/admin/AdminMapPanel.java:110:	Local variable 'lblNumber' could be declared final
+src/admin/AdminMapPanel.java:121:	Local variable 'lblDescription' could be declared final
+src/admin/AdminMapPanel.java:134:	Local variable 'lblCategory' could be declared final
+src/admin/AdminMapPanel.java:150:	Found 'UR'-anomaly for variable 'spot' (lines '150'-'152').
+src/admin/AdminMapPanel.java:150:	Found 'UR'-anomaly for variable 'spot' (lines '150'-'152').
+src/admin/AdminMapPanel.java:150:	Parameter 'spotlist' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:150:	publicMethodCommentRequirement Required
+src/admin/AdminMapPanel.java:151:	Avoid using for statements without curly braces
+src/admin/AdminMapPanel.java:151:	Local variable 'spot' could be declared final
+src/admin/AdminMapPanel.java:158:	Avoid variables with short names like e
+src/admin/AdminMapPanel.java:158:	Parameter 'e' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:158:	publicMethodCommentRequirement Required
+src/admin/AdminMapPanel.java:159:	Do not use if statements that are always true or always false
+src/admin/AdminMapPanel.java:160:	Position literals first in String comparisons
+src/admin/AdminMapPanel.java:165:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:172:	Parameter 'spot' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:172:	The method 'newSpot' has a Cyclomatic Complexity of 18.
+src/admin/AdminMapPanel.java:172:	The method 'newSpot' has a Modified Cyclomatic Complexity of 18.
+src/admin/AdminMapPanel.java:172:	The method 'newSpot' has a Standard Cyclomatic Complexity of 18.
+src/admin/AdminMapPanel.java:172:	publicMethodCommentRequirement Required
+src/admin/AdminMapPanel.java:173:	Local variable 'lblPin' could be declared final
+src/admin/AdminMapPanel.java:174:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:175:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:175:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:175:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:175:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:178:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:178:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:178:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:178:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:180:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:181:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:181:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:181:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:181:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:183:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:184:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:184:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:186:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:187:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:187:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:189:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:190:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:190:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:190:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:190:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:192:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:193:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:193:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:193:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:193:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:195:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:196:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:196:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:196:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:196:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:198:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:199:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:199:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:202:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:202:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:202:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:202:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:204:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:205:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:205:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:205:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:205:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:207:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:208:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:208:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:208:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:210:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:211:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:211:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:211:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:211:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:213:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:214:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:214:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:214:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:216:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:217:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:217:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:217:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:217:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:219:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:220:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:220:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:220:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:220:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:223:	Avoid using if...else statements without curly braces
+src/admin/AdminMapPanel.java:223:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminMapPanel.java:223:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:223:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminMapPanel.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/admin/AdminMapPanel.java:227:	Avoid variables with short names like e
+src/admin/AdminMapPanel.java:227:	Parameter 'e' is not assigned and could be declared final
+src/admin/AdminMapPanel.java:227:	publicMethodCommentRequirement Required
+src/admin/AdminPanel.java:13:	Each class should declare at least one constructor
+src/admin/AdminPanel.java:13:	headerCommentRequirement Required
+src/admin/AdminPanel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminPanel.java:15:	Perhaps 'contentPane' could be replaced by a local variable.
+src/admin/AdminPanel.java:15:	fieldCommentRequirement Required
+src/admin/AdminPanel.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/AdminPanel.java:17:	fieldCommentRequirement Required
+src/admin/AdminPanel.java:19:	Parameter 'back' is not assigned and could be declared final
+src/admin/AdminPanel.java:19:	publicMethodCommentRequirement Required
+src/admin/AdminPanel.java:24:	Local variable 'btnDelete' could be declared final
+src/admin/AdminPanel.java:27:	Avoid variables with short names like e
+src/admin/AdminPanel.java:27:	Parameter 'e' is not assigned and could be declared final
+src/admin/AdminPanel.java:27:	publicMethodCommentRequirement Required
+src/admin/AdminPanel.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/admin/AdminPanel.java:36:	Local variable 'btnEdit' could be declared final
+src/admin/AdminPanel.java:39:	Avoid variables with short names like e
+src/admin/AdminPanel.java:39:	Parameter 'e' is not assigned and could be declared final
+src/admin/AdminPanel.java:39:	publicMethodCommentRequirement Required
+src/admin/AdminPanel.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/admin/AdminPanel.java:48:	Local variable 'btnAdd' could be declared final
+src/admin/AdminPanel.java:51:	Avoid variables with short names like e
+src/admin/AdminPanel.java:51:	Parameter 'e' is not assigned and could be declared final
+src/admin/AdminPanel.java:51:	publicMethodCommentRequirement Required
+src/admin/AdminPanel.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/admin/AdminPanel.java:60:	Local variable 'lblBackround' could be declared final
+src/admin/AdminPanel.java:62:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/admin/AdminPanel.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/admin/AdminPanel.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/admin/Spot.java:3:	Avoid short class names like Spot
+src/admin/Spot.java:3:	Each class should declare at least one constructor
+src/admin/Spot.java:3:	This class has too many methods, consider refactoring it.
+src/admin/Spot.java:3:	headerCommentRequirement Required
+src/admin/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:5:	fieldCommentRequirement Required
+src/admin/Spot.java:6:	Avoid variables with short names like id
+src/admin/Spot.java:6:	Avoid variables with short names like x
+src/admin/Spot.java:6:	Avoid variables with short names like y
+src/admin/Spot.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/Spot.java:6:	fieldCommentRequirement Required
+src/admin/Spot.java:8:	Avoid variables with short names like id
+src/admin/Spot.java:8:	Method names should not start with capital letters
+src/admin/Spot.java:8:	Parameter 'id' is not assigned and could be declared final
+src/admin/Spot.java:8:	publicMethodCommentRequirement Required
+src/admin/Spot.java:12:	Method names should not start with capital letters
+src/admin/Spot.java:12:	publicMethodCommentRequirement Required
+src/admin/Spot.java:16:	Avoid variables with short names like x
+src/admin/Spot.java:16:	Method names should not start with capital letters
+src/admin/Spot.java:16:	Parameter 'x' is not assigned and could be declared final
+src/admin/Spot.java:16:	publicMethodCommentRequirement Required
+src/admin/Spot.java:20:	Method names should not start with capital letters
+src/admin/Spot.java:20:	publicMethodCommentRequirement Required
+src/admin/Spot.java:24:	Avoid variables with short names like y
+src/admin/Spot.java:24:	Method names should not start with capital letters
+src/admin/Spot.java:24:	Parameter 'y' is not assigned and could be declared final
+src/admin/Spot.java:24:	publicMethodCommentRequirement Required
+src/admin/Spot.java:28:	Method names should not start with capital letters
+src/admin/Spot.java:28:	publicMethodCommentRequirement Required
+src/admin/Spot.java:32:	Method names should not start with capital letters
+src/admin/Spot.java:32:	Parameter 'category' is not assigned and could be declared final
+src/admin/Spot.java:32:	publicMethodCommentRequirement Required
+src/admin/Spot.java:36:	Method names should not start with capital letters
+src/admin/Spot.java:36:	publicMethodCommentRequirement Required
+src/admin/Spot.java:40:	Method names should not start with capital letters
+src/admin/Spot.java:40:	Parameter 'address' is not assigned and could be declared final
+src/admin/Spot.java:40:	publicMethodCommentRequirement Required
+src/admin/Spot.java:44:	Method names should not start with capital letters
+src/admin/Spot.java:44:	publicMethodCommentRequirement Required
+src/admin/Spot.java:48:	Method names should not start with capital letters
+src/admin/Spot.java:48:	Parameter 'number' is not assigned and could be declared final
+src/admin/Spot.java:48:	publicMethodCommentRequirement Required
+src/admin/Spot.java:52:	Method names should not start with capital letters
+src/admin/Spot.java:52:	publicMethodCommentRequirement Required
+src/admin/Spot.java:56:	Method names should not start with capital letters
+src/admin/Spot.java:56:	Parameter 'decription' is not assigned and could be declared final
+src/admin/Spot.java:56:	publicMethodCommentRequirement Required
+src/admin/Spot.java:60:	Method names should not start with capital letters
+src/admin/Spot.java:60:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:5:	Class names should begin with an uppercase character
+src/admin/dbAdmin.java:5:	Each class should declare at least one constructor
+src/admin/dbAdmin.java:5:	headerCommentRequirement Required
+src/admin/dbAdmin.java:6:	Avoid using redundant field initializer for 'connection'
+src/admin/dbAdmin.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/dbAdmin.java:6:	Use explicit scoping instead of the default package private level
+src/admin/dbAdmin.java:6:	fieldCommentRequirement Required
+src/admin/dbAdmin.java:7:	Avoid using redundant field initializer for 'statement'
+src/admin/dbAdmin.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/dbAdmin.java:7:	Use explicit scoping instead of the default package private level
+src/admin/dbAdmin.java:7:	fieldCommentRequirement Required
+src/admin/dbAdmin.java:8:	Avoid using redundant field initializer for 'result'
+src/admin/dbAdmin.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/dbAdmin.java:8:	Use explicit scoping instead of the default package private level
+src/admin/dbAdmin.java:8:	fieldCommentRequirement Required
+src/admin/dbAdmin.java:10:	Method names should not start with capital letters
+src/admin/dbAdmin.java:10:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:12:	Local variable 'link' could be declared final
+src/admin/dbAdmin.java:13:	Local variable 'username' could be declared final
+src/admin/dbAdmin.java:14:	Local variable 'password' could be declared final
+src/admin/dbAdmin.java:17:	Potential violation of Law of Demeter (static property access)
+src/admin/dbAdmin.java:20:	Potential violation of Law of Demeter (object not created locally)
+src/admin/dbAdmin.java:20:	System.out.println is used
+src/admin/dbAdmin.java:22:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/admin/dbAdmin.java:23:	Avoid printStackTrace(); use a logger call instead.
+src/admin/dbAdmin.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/admin/dbAdmin.java:27:	Method names should not start with capital letters
+src/admin/dbAdmin.java:27:	Parameter 'spotlist' is not assigned and could be declared final
+src/admin/dbAdmin.java:27:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:32:	Avoid instantiating new objects inside loops
+src/admin/dbAdmin.java:44:	System.out.println is used
+src/admin/dbAdmin.java:48:	Method names should not start with capital letters
+src/admin/dbAdmin.java:48:	Parameter 'spot' is not assigned and could be declared final
+src/admin/dbAdmin.java:48:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:55:	System.out.println is used
+src/admin/dbAdmin.java:59:	Method names should not start with capital letters
+src/admin/dbAdmin.java:59:	Parameter 'spot' is not assigned and could be declared final
+src/admin/dbAdmin.java:59:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:65:	System.out.println is used
+src/admin/dbAdmin.java:69:	Method names should not start with capital letters
+src/admin/dbAdmin.java:69:	Parameter 'spot' is not assigned and could be declared final
+src/admin/dbAdmin.java:69:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:73:	System.out.println is used
+src/admin/dbAdmin.java:77:	Method names should not start with capital letters
+src/admin/dbAdmin.java:77:	publicMethodCommentRequirement Required
+src/admin/dbAdmin.java:89:	System.out.println is used
+src/admin/homeAdmin.java:13:	Class names should begin with an uppercase character
+src/admin/homeAdmin.java:13:	headerCommentRequirement Required
+src/admin/homeAdmin.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/homeAdmin.java:14:	fieldCommentRequirement Required
+src/admin/homeAdmin.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/homeAdmin.java:15:	Use explicit scoping instead of the default package private level
+src/admin/homeAdmin.java:15:	fieldCommentRequirement Required
+src/admin/homeAdmin.java:16:	Avoid variables with short names like db
+src/admin/homeAdmin.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/homeAdmin.java:16:	Use explicit scoping instead of the default package private level
+src/admin/homeAdmin.java:16:	fieldCommentRequirement Required
+src/admin/homeAdmin.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/admin/homeAdmin.java:17:	Use explicit scoping instead of the default package private level
+src/admin/homeAdmin.java:17:	fieldCommentRequirement Required
+src/admin/homeAdmin.java:19:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/admin/homeAdmin.java:19:	Parameter 'args' is not assigned and could be declared final
+src/admin/homeAdmin.java:19:	publicMethodCommentRequirement Required
+src/admin/homeAdmin.java:20:	To be compliant to J2EE, a webapp should not use any thread.
+src/admin/homeAdmin.java:21:	publicMethodCommentRequirement Required
+src/admin/homeAdmin.java:23:	Local variable 'frame' could be declared final
+src/admin/homeAdmin.java:25:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/admin/homeAdmin.java:26:	Avoid printStackTrace(); use a logger call instead.
+src/admin/homeAdmin.java:32:	It is a good practice to call super() in a constructor
+src/admin/homeAdmin.java:32:	publicMethodCommentRequirement Required
+src/admin/homeAdmin.java:33:	Avoid variables with short names like ap
+src/admin/homeAdmin.java:33:	Local variable 'ap' could be declared final
+src/admin/homeAdmin.java:34:	Avoid variables with short names like mp
+src/admin/homeAdmin.java:34:	Local variable 'mp' could be declared final
+src/admin/homeAdmin.java:38:	Avoid variables with short names like e
+src/admin/homeAdmin.java:38:	Parameter 'e' is not assigned and could be declared final
+src/admin/homeAdmin.java:38:	publicMethodCommentRequirement Required
+src/admin/homeAdmin.java:39:	Avoid if (x != y) ..; else ..;
+src/admin/homeAdmin.java:40:	Position literals first in String comparisons
+src/admin/homeAdmin.java:40:	Potential violation of Law of Demeter (static property access)
+src/admin/homeAdmin.java:41:	Avoid using if...else statements without curly braces
+src/admin/homeAdmin.java:42:	Position literals first in String comparisons
+src/admin/homeAdmin.java:42:	Potential violation of Law of Demeter (static property access)
+src/admin/homeAdmin.java:43:	Avoid using if...else statements without curly braces
+src/admin/homeAdmin.java:45:	Avoid using if...else statements without curly braces
+src/admin/homeAdmin.java:53:	Use bitwise inversion to invert boolean values
+src/admin/homeAdmin.java:59:	Parameter 'arg0' is not assigned and could be declared final
+src/admin/homeAdmin.java:59:	publicMethodCommentRequirement Required
+src/user/MapPanel.java:20:	No need to import a type that lives in the same package
+src/user/MapPanel.java:22:	Each class should declare at least one constructor
+src/user/MapPanel.java:22:	The class 'MapPanel' has a Cyclomatic Complexity of 8 (Highest = 18).
+src/user/MapPanel.java:22:	The class 'MapPanel' has a Modified Cyclomatic Complexity of 8 (Highest = 18).
+src/user/MapPanel.java:22:	The class 'MapPanel' has a Standard Cyclomatic Complexity of 8 (Highest = 18).
+src/user/MapPanel.java:22:	headerCommentRequirement Required
+src/user/MapPanel.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/MapPanel.java:24:	fieldCommentRequirement Required
+src/user/MapPanel.java:25:	Field panel has the same name as a method
+src/user/MapPanel.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/MapPanel.java:25:	Perhaps 'panel' could be replaced by a local variable.
+src/user/MapPanel.java:25:	fieldCommentRequirement Required
+src/user/MapPanel.java:26:	Avoid excessively long variable names like textAreaDescription
+src/user/MapPanel.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/MapPanel.java:26:	fieldCommentRequirement Required
+src/user/MapPanel.java:28:	Parameter 'back' is not assigned and could be declared final
+src/user/MapPanel.java:28:	publicMethodCommentRequirement Required
+src/user/MapPanel.java:33:	Local variable 'btnBack' could be declared final
+src/user/MapPanel.java:35:	Avoid variables with short names like e
+src/user/MapPanel.java:35:	Parameter 'e' is not assigned and could be declared final
+src/user/MapPanel.java:35:	publicMethodCommentRequirement Required
+src/user/MapPanel.java:55:	Found 'UR'-anomaly for variable 'spot' (lines '55'-'57').
+src/user/MapPanel.java:55:	Parameter 'spotlist' is not assigned and could be declared final
+src/user/MapPanel.java:55:	publicMethodCommentRequirement Required
+src/user/MapPanel.java:56:	Avoid using for statements without curly braces
+src/user/MapPanel.java:56:	Local variable 'spot' could be declared final
+src/user/MapPanel.java:64:	Parameter 'spot' is not assigned and could be declared final
+src/user/MapPanel.java:64:	The method 'newSpot' has a Cyclomatic Complexity of 18.
+src/user/MapPanel.java:64:	The method 'newSpot' has a Modified Cyclomatic Complexity of 18.
+src/user/MapPanel.java:64:	The method 'newSpot' has a Standard Cyclomatic Complexity of 18.
+src/user/MapPanel.java:64:	publicMethodCommentRequirement Required
+src/user/MapPanel.java:65:	Local variable 'lblPin' could be declared final
+src/user/MapPanel.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:67:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:67:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:70:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:70:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:73:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:73:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:76:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:76:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:78:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:79:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:79:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:79:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:79:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:82:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:82:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:85:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:85:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:87:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:88:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:88:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:91:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:91:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:91:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:91:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:94:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:94:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:97:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:97:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:100:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:100:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:100:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:100:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:103:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:103:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:106:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:106:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:106:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:106:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:108:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:109:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:109:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:112:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:112:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:112:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:112:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:115:	Avoid using if...else statements without curly braces
+src/user/MapPanel.java:115:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/MapPanel.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/user/MapPanel.java:119:	Avoid variables with short names like e
+src/user/MapPanel.java:119:	Parameter 'e' is not assigned and could be declared final
+src/user/MapPanel.java:119:	publicMethodCommentRequirement Required
+src/user/SearchPanel.java:18:	Each class should declare at least one constructor
+src/user/SearchPanel.java:18:	headerCommentRequirement Required
+src/user/SearchPanel.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:19:	Perhaps 'contentPane' could be replaced by a local variable.
+src/user/SearchPanel.java:19:	fieldCommentRequirement Required
+src/user/SearchPanel.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_mesa' is not final.
+src/user/SearchPanel.java:20:	Perhaps 'textField_mesa' could be replaced by a local variable.
+src/user/SearchPanel.java:20:	fieldCommentRequirement Required
+src/user/SearchPanel.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:21:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_diamoni' is not final.
+src/user/SearchPanel.java:21:	Perhaps 'textField_diamoni' could be replaced by a local variable.
+src/user/SearchPanel.java:21:	fieldCommentRequirement Required
+src/user/SearchPanel.java:22:	Avoid excessively long variable names like textField_diaskedasi
+src/user/SearchPanel.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:22:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_diaskedasi' is not final.
+src/user/SearchPanel.java:22:	Perhaps 'textField_diaskedasi' could be replaced by a local variable.
+src/user/SearchPanel.java:22:	fieldCommentRequirement Required
+src/user/SearchPanel.java:23:	Avoid excessively long variable names like textField_politismos
+src/user/SearchPanel.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:23:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_politismos' is not final.
+src/user/SearchPanel.java:23:	Perhaps 'textField_politismos' could be replaced by a local variable.
+src/user/SearchPanel.java:23:	fieldCommentRequirement Required
+src/user/SearchPanel.java:24:	Avoid excessively long variable names like textField_athlitismos
+src/user/SearchPanel.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:24:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_athlitismos' is not final.
+src/user/SearchPanel.java:24:	Perhaps 'textField_athlitismos' could be replaced by a local variable.
+src/user/SearchPanel.java:24:	fieldCommentRequirement Required
+src/user/SearchPanel.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_diamoni' is not final.
+src/user/SearchPanel.java:26:	Use explicit scoping instead of the default package private level
+src/user/SearchPanel.java:26:	fieldCommentRequirement Required
+src/user/SearchPanel.java:27:	Avoid excessively long variable names like comboBox_diaskedasi
+src/user/SearchPanel.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:27:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_diaskedasi' is not final.
+src/user/SearchPanel.java:27:	Use explicit scoping instead of the default package private level
+src/user/SearchPanel.java:27:	fieldCommentRequirement Required
+src/user/SearchPanel.java:28:	Avoid excessively long variable names like comboBox_politismos
+src/user/SearchPanel.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:28:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_politismos' is not final.
+src/user/SearchPanel.java:28:	Use explicit scoping instead of the default package private level
+src/user/SearchPanel.java:28:	fieldCommentRequirement Required
+src/user/SearchPanel.java:29:	Avoid excessively long variable names like comboBox_athlitismos
+src/user/SearchPanel.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:29:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_athlitismos' is not final.
+src/user/SearchPanel.java:29:	Use explicit scoping instead of the default package private level
+src/user/SearchPanel.java:29:	fieldCommentRequirement Required
+src/user/SearchPanel.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/SearchPanel.java:30:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_mesa' is not final.
+src/user/SearchPanel.java:30:	Use explicit scoping instead of the default package private level
+src/user/SearchPanel.java:30:	fieldCommentRequirement Required
+src/user/SearchPanel.java:32:	Avoid really long methods.
+src/user/SearchPanel.java:32:	Parameter 'back' is not assigned and could be declared final
+src/user/SearchPanel.java:32:	publicMethodCommentRequirement Required
+src/user/SearchPanel.java:37:	Local variable 'search' could be declared final
+src/user/SearchPanel.java:39:	Avoid variables with short names like e
+src/user/SearchPanel.java:39:	Parameter 'e' is not assigned and could be declared final
+src/user/SearchPanel.java:39:	publicMethodCommentRequirement Required
+src/user/SearchPanel.java:46:	The String literal "Tahoma" appears 11 times in this file; the first occurrence is on line 46
+src/user/SearchPanel.java:133:	Local variable 'lblBackround' could be declared final
+src/user/SearchPanel.java:136:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/user/SearchPanel.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/user/SearchPanel.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/user/Spot.java:3:	Avoid short class names like Spot
+src/user/Spot.java:3:	Each class should declare at least one constructor
+src/user/Spot.java:3:	This class has too many methods, consider refactoring it.
+src/user/Spot.java:3:	headerCommentRequirement Required
+src/user/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:5:	fieldCommentRequirement Required
+src/user/Spot.java:6:	Avoid variables with short names like id
+src/user/Spot.java:6:	Avoid variables with short names like x
+src/user/Spot.java:6:	Avoid variables with short names like y
+src/user/Spot.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/Spot.java:6:	fieldCommentRequirement Required
+src/user/Spot.java:8:	Avoid variables with short names like id
+src/user/Spot.java:8:	Method names should not start with capital letters
+src/user/Spot.java:8:	Parameter 'id' is not assigned and could be declared final
+src/user/Spot.java:8:	publicMethodCommentRequirement Required
+src/user/Spot.java:12:	Method names should not start with capital letters
+src/user/Spot.java:12:	publicMethodCommentRequirement Required
+src/user/Spot.java:16:	Avoid variables with short names like x
+src/user/Spot.java:16:	Method names should not start with capital letters
+src/user/Spot.java:16:	Parameter 'x' is not assigned and could be declared final
+src/user/Spot.java:16:	publicMethodCommentRequirement Required
+src/user/Spot.java:20:	Method names should not start with capital letters
+src/user/Spot.java:20:	publicMethodCommentRequirement Required
+src/user/Spot.java:24:	Avoid variables with short names like y
+src/user/Spot.java:24:	Method names should not start with capital letters
+src/user/Spot.java:24:	Parameter 'y' is not assigned and could be declared final
+src/user/Spot.java:24:	publicMethodCommentRequirement Required
+src/user/Spot.java:28:	Method names should not start with capital letters
+src/user/Spot.java:28:	publicMethodCommentRequirement Required
+src/user/Spot.java:32:	Method names should not start with capital letters
+src/user/Spot.java:32:	Parameter 'category' is not assigned and could be declared final
+src/user/Spot.java:32:	publicMethodCommentRequirement Required
+src/user/Spot.java:36:	Method names should not start with capital letters
+src/user/Spot.java:36:	publicMethodCommentRequirement Required
+src/user/Spot.java:40:	Method names should not start with capital letters
+src/user/Spot.java:40:	Parameter 'address' is not assigned and could be declared final
+src/user/Spot.java:40:	publicMethodCommentRequirement Required
+src/user/Spot.java:44:	Method names should not start with capital letters
+src/user/Spot.java:44:	publicMethodCommentRequirement Required
+src/user/Spot.java:48:	Method names should not start with capital letters
+src/user/Spot.java:48:	Parameter 'number' is not assigned and could be declared final
+src/user/Spot.java:48:	publicMethodCommentRequirement Required
+src/user/Spot.java:52:	Method names should not start with capital letters
+src/user/Spot.java:52:	publicMethodCommentRequirement Required
+src/user/Spot.java:56:	Method names should not start with capital letters
+src/user/Spot.java:56:	Parameter 'decription' is not assigned and could be declared final
+src/user/Spot.java:56:	publicMethodCommentRequirement Required
+src/user/Spot.java:60:	Method names should not start with capital letters
+src/user/Spot.java:60:	publicMethodCommentRequirement Required
+src/user/dbUser.java:5:	Class names should begin with an uppercase character
+src/user/dbUser.java:5:	Each class should declare at least one constructor
+src/user/dbUser.java:5:	headerCommentRequirement Required
+src/user/dbUser.java:6:	Avoid using redundant field initializer for 'connection'
+src/user/dbUser.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/dbUser.java:6:	Use explicit scoping instead of the default package private level
+src/user/dbUser.java:6:	fieldCommentRequirement Required
+src/user/dbUser.java:7:	Avoid using redundant field initializer for 'statement'
+src/user/dbUser.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/dbUser.java:7:	Use explicit scoping instead of the default package private level
+src/user/dbUser.java:7:	fieldCommentRequirement Required
+src/user/dbUser.java:8:	Avoid using redundant field initializer for 'result'
+src/user/dbUser.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/dbUser.java:8:	Use explicit scoping instead of the default package private level
+src/user/dbUser.java:8:	fieldCommentRequirement Required
+src/user/dbUser.java:10:	Method names should not start with capital letters
+src/user/dbUser.java:10:	publicMethodCommentRequirement Required
+src/user/dbUser.java:12:	Local variable 'link' could be declared final
+src/user/dbUser.java:13:	Local variable 'username' could be declared final
+src/user/dbUser.java:14:	Local variable 'password' could be declared final
+src/user/dbUser.java:17:	Potential violation of Law of Demeter (static property access)
+src/user/dbUser.java:20:	Potential violation of Law of Demeter (object not created locally)
+src/user/dbUser.java:20:	System.out.println is used
+src/user/dbUser.java:22:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/user/dbUser.java:23:	Avoid printStackTrace(); use a logger call instead.
+src/user/dbUser.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/user/dbUser.java:27:	Avoid variables with short names like s
+src/user/dbUser.java:27:	Method names should not start with capital letters
+src/user/dbUser.java:27:	Parameter 's' is not assigned and could be declared final
+src/user/dbUser.java:27:	Parameter 'spotlist' is not assigned and could be declared final
+src/user/dbUser.java:27:	publicMethodCommentRequirement Required
+src/user/dbUser.java:31:	Avoid using if statements without curly braces
+src/user/dbUser.java:31:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/user/dbUser.java:32:	Prefer StringBuffer over += for concatenating strings
+src/user/dbUser.java:33:	Avoid using Literals in Conditional Statements
+src/user/dbUser.java:33:	Avoid using if statements without curly braces
+src/user/dbUser.java:34:	Avoid using for statements without curly braces
+src/user/dbUser.java:35:	Prefer StringBuffer over += for concatenating strings
+src/user/dbUser.java:38:	Avoid instantiating new objects inside loops
+src/user/dbUser.java:50:	System.out.println is used
+src/user/dbUser.java:54:	Method names should not start with capital letters
+src/user/dbUser.java:54:	publicMethodCommentRequirement Required
+src/user/dbUser.java:66:	System.out.println is used
+src/user/homeUser.java:5:	No need to import a type that lives in the same package
+src/user/homeUser.java:6:	No need to import a type that lives in the same package
+src/user/homeUser.java:13:	Class names should begin with an uppercase character
+src/user/homeUser.java:13:	The class 'homeUser' has a Cyclomatic Complexity of 12 (Highest = 19).
+src/user/homeUser.java:13:	The class 'homeUser' has a Modified Cyclomatic Complexity of 12 (Highest = 19).
+src/user/homeUser.java:13:	The class 'homeUser' has a Standard Cyclomatic Complexity of 12 (Highest = 19).
+src/user/homeUser.java:13:	headerCommentRequirement Required
+src/user/homeUser.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/homeUser.java:15:	fieldCommentRequirement Required
+src/user/homeUser.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/homeUser.java:16:	Use explicit scoping instead of the default package private level
+src/user/homeUser.java:16:	fieldCommentRequirement Required
+src/user/homeUser.java:17:	Avoid variables with short names like db
+src/user/homeUser.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/homeUser.java:17:	Private field 'db' could be made final; it is only initialized in the declaration or constructor.
+src/user/homeUser.java:17:	fieldCommentRequirement Required
+src/user/homeUser.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/user/homeUser.java:18:	fieldCommentRequirement Required
+src/user/homeUser.java:20:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/user/homeUser.java:20:	Parameter 'args' is not assigned and could be declared final
+src/user/homeUser.java:20:	publicMethodCommentRequirement Required
+src/user/homeUser.java:21:	To be compliant to J2EE, a webapp should not use any thread.
+src/user/homeUser.java:22:	publicMethodCommentRequirement Required
+src/user/homeUser.java:24:	Local variable 'frame' could be declared final
+src/user/homeUser.java:26:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/user/homeUser.java:27:	Avoid printStackTrace(); use a logger call instead.
+src/user/homeUser.java:33:	It is a good practice to call super() in a constructor
+src/user/homeUser.java:33:	The constructor 'homeUser' has a Cyclomatic Complexity of 19.
+src/user/homeUser.java:33:	The constructor 'homeUser' has a Modified Cyclomatic Complexity of 19.
+src/user/homeUser.java:33:	The constructor 'homeUser' has a Standard Cyclomatic Complexity of 19.
+src/user/homeUser.java:33:	publicMethodCommentRequirement Required
+src/user/homeUser.java:34:	Avoid variables with short names like sp
+src/user/homeUser.java:34:	Local variable 'sp' could be declared final
+src/user/homeUser.java:35:	Avoid variables with short names like mp
+src/user/homeUser.java:35:	Found 'DU'-anomaly for variable 'mp' (lines '35'-'100').
+src/user/homeUser.java:35:	Local variable 'mp' could be declared final
+src/user/homeUser.java:38:	Avoid variables with short names like e
+src/user/homeUser.java:38:	Parameter 'e' is not assigned and could be declared final
+src/user/homeUser.java:38:	The method 'actionPerformed' has a Cyclomatic Complexity of 18.
+src/user/homeUser.java:38:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 18.
+src/user/homeUser.java:38:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 18.
+src/user/homeUser.java:38:	The method actionPerformed() has an NPath complexity of 961
+src/user/homeUser.java:38:	publicMethodCommentRequirement Required
+src/user/homeUser.java:39:	Avoid if (x != y) ..; else ..;
+src/user/homeUser.java:40:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:42:	Local variable 'stringList' could be declared final
+src/user/homeUser.java:44:	Avoid using if statements without curly braces
+src/user/homeUser.java:44:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:46:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:47:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:47:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:48:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:49:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:49:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:50:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:52:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:54:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:55:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:55:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:56:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:57:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:57:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:58:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:59:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:59:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:60:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:62:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:64:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:65:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:65:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:66:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:67:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:67:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:68:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:70:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:72:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:73:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:73:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:74:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:75:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:75:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:76:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:77:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:77:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:78:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:79:	Avoid using Literals in Conditional Statements
+src/user/homeUser.java:79:	Potential violation of Law of Demeter (static property access)
+src/user/homeUser.java:80:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:82:	Avoid using if...else statements without curly braces
+src/user/homeUser.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/user/homeUser.java:91:	Use bitwise inversion to invert boolean values
